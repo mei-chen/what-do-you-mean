@@ -13,3 +13,7 @@ model.add(Reshape((5, 5, 128)))
 model.add(Conv2DTranspose(1, (3,3), strides=(2,2), padding='same') 
 # summarize model
 model.summary()
+
+# insert 
+
+
